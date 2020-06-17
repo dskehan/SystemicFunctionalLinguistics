@@ -1,6 +1,6 @@
 let mongoose = require('mongoose')
 
-const uri = "mongodb+srv://dskehan:123skeener@skehan0-poaoy.azure.mongodb.net/clauseAnalysis?retryWrites=true&w=majority"
+const uri = "mongodb+srv://dskehan:@skehan0-poaoy.azure.mongodb.net/clauseAnalysis?retryWrites=true&w=majority"
 mongoose.connect(uri, {'useNewUrlParser': true, 'useUnifiedTopology': true})
 mongoose.set('useCreateIndex', true)
 
